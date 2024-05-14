@@ -16,10 +16,11 @@ class LoginPage(BasePage):
         # self.driver.get(TestData.BASE_URL)
 
 
+
     def do_login(self, email, password):
         self.do_send_keys(self.EMAIL, email)
         self.do_send_keys(self.PASSWORD, password)
         self.do_click(self.LOGIN_BUTTON)
-        time.sleep(5)
+        time.sleep(2)
 
 
