@@ -33,6 +33,7 @@ class Test_AdminScenario(BaseTest):
         time.sleep(2)
         self.OptionManagementPage.go_to_admin_dashboard_page()
 
+        self.AdminDashboardPage.accept_service()
         self.AdminDashboardPage.assign_employee()
 
         time.sleep(3)

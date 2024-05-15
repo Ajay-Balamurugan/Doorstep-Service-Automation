@@ -5,10 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42e99b2f-9733-4bc6-9f34-2f6e957b0ec6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Pages/ServiceDetailsPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/test_CustomerScenario.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/AdminRegistrationPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/BookingHistoryPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/CartPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/EmployeeRegistrationPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/test_EmployeeScenario.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/Config/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/AdminDashboardPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/AdminDashboardPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/BasePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/BasePage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/HomePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/HomePage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/LoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/LoginPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/test_AdminScenario.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_AdminScenario.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/test_CustomerScenario.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_CustomerScenario.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,18 +35,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Ajay-Balamurugan"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Ajay-Balamurugan&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Ajay-Balamurugan/Doorstep-Service-Automation.git",
-    "accountId": "0985ce27-865e-499a-b3ce-17c4318bca36"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Ajay-Balamurugan/Doorstep-Service-Automation.git&quot;,
+    &quot;accountId&quot;: &quot;0985ce27-865e-499a-b3ce-17c4318bca36&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -48,16 +58,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python tests.Python tests for test_LoginPage.Test_Login.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/ajay/PycharmProjects/Doorstep-Service-Automation"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for test_LoginPage.Test_Login.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ajay/PycharmProjects/Doorstep-Service-Automation&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Python tests for test_LoginPage.Test_Login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="DoorStepServiceAutomation" />

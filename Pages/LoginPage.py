@@ -7,8 +7,8 @@ from Pages.BasePage import BasePage
 
 
 class LoginPage(BasePage):
-    EMAIL = (By.ID, "user_email")
-    PASSWORD = (By.ID, "user_password")
+    EMAIL_FIELD = (By.ID, "user_email")
+    PASSWORD_FIELD = (By.ID, "user_password")
     LOGIN_BUTTON = (By.XPATH, "//input[@type='submit']")
 
     def __init__(self, driver):
@@ -18,8 +18,8 @@ class LoginPage(BasePage):
 
 
     def do_login(self, email, password):
-        self.do_send_keys(self.EMAIL, email)
-        self.do_send_keys(self.PASSWORD, password)
+        self.do_send_keys(self.EMAIL_FIELD, email)
+        self.do_send_keys(self.PASSWORD_FIELD, password)
         self.do_click(self.LOGIN_BUTTON)
         time.sleep(2)
 
