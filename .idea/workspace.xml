@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42e99b2f-9733-4bc6-9f34-2f6e957b0ec6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Pages/OptionManagementPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pages/ServiceManagementPage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tests/test_AdminScenario.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/ServiceDetailsPage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tests/test_CustomerScenario.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/AdminDashboardPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/AdminDashboardPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/BasePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/BasePage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/HomePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/HomePage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/LoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/LoginPage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Ajay-Balamurugan"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Ajay-Balamurugan/Doorstep-Service-Automation.git",
+    "accountId": "0985ce27-865e-499a-b3ce-17c4318bca36"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
