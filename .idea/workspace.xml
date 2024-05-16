@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42e99b2f-9733-4bc6-9f34-2f6e957b0ec6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Database/DatabaseConnection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Database/ServiceRequestItems.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Database/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Database/services.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Images/image2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Database/ServiceRequests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/AdminDashboardPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/AdminDashboardPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/BasePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/BasePage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/ServiceManagementPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/ServiceManagementPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/test_AdminScenario.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_AdminScenario.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database/ServiceRequestItems.py" beforeDir="false" afterPath="$PROJECT_DIR$/Database/ServiceRequestItems.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/BookingHistoryPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/BookingHistoryPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/test_CustomerScenario.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/test_CustomerScenario.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,17 +49,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python tests.Python tests for test_LoginPage.Test_Login.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/ajay/PycharmProjects/Doorstep-Service-Automation",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for test_LoginPage.Test_Login.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ajay/PycharmProjects/Doorstep-Service-Automation&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Python tests for test_LoginPage.Test_Login" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="DoorStepServiceAutomation" />

@@ -1,5 +1,6 @@
 import time
 
+from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 
 from Config.config import TestData
@@ -16,6 +17,9 @@ class BookingHistoryPage(BasePage):
 
 
     def view_booking_details(self):
-        self.do_click(self.VIEW_DETAILS_LINK)
+       element = self.get_element(self.VIEW_DETAILS_LINK)
+       actions = ActionChains(self.driver)
+       actions.move_to_element(element).perform()
+       element.click()
 
 
