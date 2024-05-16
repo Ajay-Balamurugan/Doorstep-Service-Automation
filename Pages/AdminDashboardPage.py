@@ -12,12 +12,14 @@ class AdminDashboardPage(BasePage):
     DASHBOARD_LINK = (By.XPATH, "//a[text()='Dashboard']")
     ACCEPT_BUTTON = (By.XPATH, "//table[@id='customer_bookings_table']/tbody/tr[1]/td/a")
     # ACCEPT_BUTTON = (By.XPATH, "//table[@id='customer_bookings_table']/tbody/td[text() = 'Cleaning']/a")
-    ACCEPT_CLEANING_BUTTON = (By.XPATH, "//td[contains(text() ,'Cleaning')]/..//a")
+    # ACCEPT_CLEANING_BUTTON = (By.XPATH, "//td[contains(text() ,'Cleaning')]/..//a")
+    ACCEPT_CLEANING_BUTTON = (By.XPATH, "//*[text()[normalize-space() = '(Cleaning)']]/following-sibling::td//a")
     EMPLOYEE_SELECT_DROPDOWN = (By.XPATH, "//select[@id='employee_slot_user_id']")
     ASSIGN_EMPLOYEE_BUTTON = (By.XPATH, "//input[@value = 'Assign Employee']")
     CREATE_ADMIN_LINK = (By.XPATH, "//a[text()='Create Admin']")
     CREATE_EMPLOYEE_LINK = (By.XPATH, "//a[text()='Create Employee']")
     LOG_OUT_BUTTON = (By.XPATH, "//button[text()='Log Out']")
+
 
 
 
