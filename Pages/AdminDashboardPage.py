@@ -11,7 +11,7 @@ class AdminDashboardPage(BasePage):
     MANAGE_SERVICES_LINK = (By.XPATH, "//a[text()='Manage Services']")
     DASHBOARD_LINK = (By.XPATH, "//a[text()='Dashboard']")
     ACCEPT_BUTTON = (By.XPATH, "//table[@id='customer_bookings_table']/tbody/tr[1]/td/a")
-    ACCEPT_BUTTON = (By.XPATH, "//table[@id='customer_bookings_table']/tbody/td[text() = 'Cleaning']/a")
+    # ACCEPT_BUTTON = (By.XPATH, "//table[@id='customer_bookings_table']/tbody/td[text() = 'Cleaning']/a")
     ACCEPT_CLEANING_BUTTON = (By.XPATH, "//td[contains(text() ,'Cleaning')]/..//a")
     EMPLOYEE_SELECT_DROPDOWN = (By.XPATH, "//select[@id='employee_slot_user_id']")
     ASSIGN_EMPLOYEE_BUTTON = (By.XPATH, "//input[@value = 'Assign Employee']")
@@ -31,6 +31,9 @@ class AdminDashboardPage(BasePage):
 
     def accept_service(self):
         self.do_click(self.ACCEPT_BUTTON)
+        time.sleep(2)
+        return self.current_url()
+
 
 
     def assign_employee(self, name=""):
@@ -38,7 +41,7 @@ class AdminDashboardPage(BasePage):
         employee_dropdown = self.get_element(self.EMPLOYEE_SELECT_DROPDOWN)
         select = Select(employee_dropdown)
         if name == "":
-            select.select_by_index(1)
+            select.select_by_index(0)
         else:
             select.select_by_visible_text(name)
         self.do_click(self.ASSIGN_EMPLOYEE_BUTTON)

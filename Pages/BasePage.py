@@ -23,3 +23,9 @@ class BasePage:
         element =  WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(by_locator))
         return element
 
+    def get_url(self, url):
+        self.driver.get(url)
+
+    def current_url(self):
+        return self.driver.current_url
+

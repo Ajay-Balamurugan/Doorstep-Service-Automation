@@ -35,6 +35,7 @@ class ServiceManagementPage(BasePage):
     def go_to_options_page(self):
         self.get_element(self.MANAGE_OPTIONS_LINK).click()
         time.sleep(2)
+        return self.current_url()
 
 
 
